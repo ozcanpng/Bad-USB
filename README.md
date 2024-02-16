@@ -5,7 +5,7 @@ Bad USB, USB aygıtlarını kötü niyetli amaçlar için kullanmayı sağlayan 
 Bad USB genellikle USB bellek sürücüleri, klavyeler, fareler veya diğer USB cihazları gibi yaygın kullanılan USB aygıtlarına benzer görünecek şekilde tasarlanır. Ancak bu cihazlar, bilgisayara takıldıklarında istenmeyen eylemler gerçekleştirebilirler.
 
 # Amaç
-Bu projede Raspberry Pi Pico sayesinde daha düşük maliyetle yapabileceğiniz USB Rubber Ducky cihazının yapabildiği her şeyi yapan bu cihazı ele alacağız.
+Bu projede USB Rubber Ducky cihazının yapabildiği her şeyi yapan ve oldukça düşük maliyetli olan Raspberry Pi Pico cihazıyla neler yapabileceğimizi göreceğiz.
 
 Cihazın nasıl kurulduğundan çok ne tür senaryolarda ne tür Payload'lar işimize yarar bunları derleyip göstermek istedim. 
 
