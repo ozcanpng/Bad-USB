@@ -11,20 +11,27 @@ Cihazın nasıl kurulduğundan çok ne tür senaryolarda ne tür Payload'lar iş
 
 Cihazın en güçlü olduğu senaryo fiziksel erişimimizin olduğu yerlerdir. Fiziksel erişimimizin olduğu yerlerde yapabileceklerimizin gerçekten de sınırı yok. 
 
-Fiziksel erişimimizin olduğu yerlerde zamandan tasarruf ederek istediğimiz kodları çalıştırabilir, antivirüs'ü kapatabilir, sistem dosyalarını silerek işletim sistemini çökertebilir, kamerasını izleyebilir, kurban bilgisayardan dosya indirebilir, dosya yükleyebilir, silebilir ve oluşturabiliriz.
-
 # Yasal Uyarı
 Ufak bir hatırlatma bu projedeki kaynakları tamamen eğitim üzerine, kendinizi geliştirmek için kullanınız. Aksi takdirde yasal yaptırımlarının olduğunu unutmayınız :)
 
-# Cihazlar Arasındaki Fiyat Farkı
-![USB RUBBER DUCKY](https://github.com/ozcanpng/Bad-USB/assets/127627278/fdeb20cc-b1ac-4a2e-bd97-8742939016b2)
-![Pi Pico](https://github.com/ozcanpng/Bad-USB/assets/127627278/c82eb623-d654-40fb-b0e2-f2d392fd663a)
+# Fiziksel erişimimizin olduğu yerlerde zamandan tasarruf ederek 
 
-# Cihaz 
-Cihazı merak edenler için buraya [tıklayıp](https://www.amazon.com.tr/Raspberry-Pi-SC0915-Pico/dp/B09KVB8LVR/ref=asc_df_B09KVB8LVR/?tag=trshpngglede-21&linkCode=df0&hvadid=510499475756&hvpos=&hvnetw=g&hvrand=5826631902843730337&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056808&hvtargid=pla-1596335753242&psc=1&mcid=b7261fa1640b3b5bbecaa0daa4137f37) güncel fiyatını öğrenebilirsiniz.
+• İstediğimiz kodları çalıştırabiliriz 
 
-# Cihazın Kurulumu
-Cihaz kurulumu için vermiş olduğum [projeye](https://github.com/dbisu/pico-ducky) bakıp nasıl kurulduğunu görebilirsiniz. 
+• Antivirüs'ü kapatabiliriz 
+
+• Sistem dosyalarını silerek işletim sistemini çökertebiliriz 
+
+• Kamerasını izleyebiliriz 
+
+• Kurban bilgisayardan dosya indirebiliriz 
+
+• Kurban bilgisayara dosya yükleyebiliriz
+
+• Kurban bilgisayardan dosya oluşturup / silebiliriz  
+
+# Cihaz ve Kurulumu
+Cihazı merak edenler için buraya [tıklayıp](https://www.amazon.com.tr/Raspberry-Pi-SC0915-Pico/dp/B09KVB8LVR/ref=asc_df_B09KVB8LVR/?tag=trshpngglede-21&linkCode=df0&hvadid=510499475756&hvpos=&hvnetw=g&hvrand=5826631902843730337&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056808&hvtargid=pla-1596335753242&psc=1&mcid=b7261fa1640b3b5bbecaa0daa4137f37) güncel fiyatını öğrenebilir ve cihaz kurulumu için vermiş olduğum [projeye](https://github.com/dbisu/pico-ducky) bakıp nasıl kurulduğunu görebilirsiniz. 
 
 # Payloadlar
 İndirmiş olduğunuz Payload'lar "payload.dd" adı ve uzantısı altında çalışmaktadır ve tüm Payload'ları [buradan](https://github.com/ozcanpng/Bad-USB/tree/main/Payloads) görebilirsiniz.
