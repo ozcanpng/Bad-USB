@@ -1,52 +1,51 @@
-# Bad-USB Nedir?
-Bad USB, USB aygıtlarını kötü niyetli amaçlar için kullanmayı sağlayan bir tür saldırı ve kötü niyetli bir donanım (malware) türüdür.
+# What is Bad-USB?
+Bad USB is a type of attack and a type of malicious hardware (malware) that exploits USB devices for malicious purposes.
 
 
-Bad USB genellikle USB bellek sürücüleri, klavyeler, fareler veya diğer USB cihazları gibi yaygın kullanılan USB aygıtlarına benzer görünecek şekilde tasarlanır. Ancak bu cihazlar, bilgisayara takıldıklarında istenmeyen eylemler gerçekleştirebilirler.
+Bad USB is usually designed to look similar to common USB devices such as USB memory drives, keyboards, mice or other USB devices. However, these devices can perform undesirable actions when plugged into a computer.
 
-# Amaç
-Bu projede USB Rubber Ducky cihazının yapabildiği her şeyi yapan ve oldukça düşük maliyetli olan Raspberry Pi Pico cihazıyla neler yapabileceğimizi göreceğiz.
+# Purpose
+In this project, we will see what we can do with the Raspberry Pi Pico device, which does everything that the USB Rubber Ducky device can do and is quite low cost.
 
-Cihazın nasıl kurulduğundan çok ne tür senaryolarda ne tür Payload'lar işimize yarar bunları derleyip göstermek istedim. 
+I wanted to compile and show what kind of Payloads are useful in what kind of scenarios rather than how the device is set up. 
 
-Cihazın en güçlü olduğu senaryo fiziksel erişimimizin olduğu yerlerdir. Fiziksel erişimimizin olduğu yerlerde yapabileceklerimizin gerçekten de sınırı yok. 
+The scenario where the device is most powerful is where we have physical access. There really are no limits to what we can do where we have physical access. 
 
-# Yasal Uyarı
-Ufak bir hatırlatma bu projedeki kaynakları tamamen eğitim üzerine, kendinizi geliştirmek için kullanınız. Aksi takdirde yasal yaptırımlarının olduğunu unutmayınız :)
+# Legal Notice
+A small reminder, please use the resources in this project for education and self-improvement. Otherwise, please note that there are legal sanctions :)
 
-# Fiziksel erişimimizin olduğu yerlerde zamandan tasarruf ederek 
+# Saving time where we have physical access 
 
-• İstediğimiz kodları çalıştırabiliriz 
+- We can run the codes we want 
 
-• Antivirüs'ü kapatabiliriz 
+- We can turn off the antivirus 
 
-• Sistem dosyalarını silerek işletim sistemini çökertebiliriz 
+- We can crash the operating system by deleting system files 
 
-• Kamerasını izleyebiliriz 
+- We can watch his camera 
 
-• Kurban bilgisayardan dosya indirebiliriz 
+- The victim can download files from the computer 
 
-• Kurban bilgisayara dosya yükleyebiliriz
+- We can upload files to the victim computer
 
-• Kurban bilgisayardan dosya oluşturup / silebiliriz  
+- We can create/delete files from the victim computer  
 
-# Cihaz ve Kurulumu
-Cihazı merak edenler için buraya [tıklayıp](https://www.amazon.com.tr/Raspberry-Pi-SC0915-Pico/dp/B09KVB8LVR/ref=asc_df_B09KVB8LVR/?tag=trshpngglede-21&linkCode=df0&hvadid=510499475756&hvpos=&hvnetw=g&hvrand=5826631902843730337&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056808&hvtargid=pla-1596335753242&psc=1&mcid=b7261fa1640b3b5bbecaa0daa4137f37) güncel fiyatını öğrenebilir ve cihaz kurulumu için vermiş olduğum [projeye](https://github.com/ozcanpng/pico-ducky) bakıp nasıl kurulduğunu görebilirsiniz. 
+# Device and Installation
+For those who are curious about the device, you can [click here](https://www.amazon.com.tr/Raspberry-Pi-SC0915-Pico/dp/B09KVB8LVR/ref=asc_df_B09KVB8LVR/?tag=trshpngglede-21&linkCode=df0&hvadid=510499475756&hvpos=&hvnetw=g&hvrand=5826631902843730337&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9056808&hvtargid=pla-1596335753242&psc=1&mcid=b7261fa1640b3b5bbecaa0daa4137f37) to find out the current price and look at the [project](https://github.com/ozcanpng/pico-ducky) I have given for the installation of the device and see how it is installed. 
 
-# İki Cihaz Arasındaki Fiyat Farkı
+# Price Difference Between Two Devices
 
 ![USB RUBBER DUCKY](https://github.com/ozcanpng/Bad-USB/assets/127627278/93bc2671-40d3-4ccc-bd46-62e5043c8fe6)
 ![Pi Pico](https://github.com/ozcanpng/Bad-USB/assets/127627278/3fee5aee-de29-492c-b4b6-2eab4af9a0e9)
 
 
 
-# Payloadlar
-İndirmiş olduğunuz Payload'lar "payload.dd" adı ve uzantısı altında çalışmaktadır ve tüm Payload'ları [buradan](https://github.com/ozcanpng/Bad-USB/tree/main/Payloads) görebilirsiniz.
+# Payloads
+The Payloads you have downloaded work under the name and extension “payload.dd” and you can see all Payloads [here](https://github.com/ozcanpng/Bad-USB/tree/main/Payloads).
 
-Aşağıda "Wifi+Sysinfo+IPinfo.dd" Payload'ıyla neler yapabileceğinizi gösteren bir örnek video var.
+Below is an example video showing what you can do with the “Wifi+Sysinfo+IPinfo.dd” Payload.
 
 https://github.com/ozcanpng/Bad-USB/assets/127627278/7db798c4-c61e-44de-b8fb-5ac11ad5a7e4
-
 
 
 
